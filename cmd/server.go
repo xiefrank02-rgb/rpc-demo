@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/xiefrank02-rgb/rpc-demo/hello" // 导入生成的 protobuf 代码
+	"github.com/xiefrank02-rgb/rpc-demo/api/hello/v1" // 导入生成的 protobuf 代码
 
 	"google.golang.org/grpc"
 )

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hello;
 
-option go_package = "./hello"; // 指定 Go 包路径
+option go_package = "api/hello/v1;hello"; // 指定 Go 包路径
 
 // 定义一个请求消息
 message HelloRequest {
